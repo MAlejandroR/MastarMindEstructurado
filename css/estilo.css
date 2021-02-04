@@ -1,0 +1,249 @@
+/*Establecemos una variable de un color para bordes*/
+:root {
+    --color-border-legend: 3px solid crimson;
+}
+
+.containerIndex{
+   display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 90vw;
+}
+
+.presentacion {
+    border: 0.25em solid;
+    padding: 10px;
+    background-color: buttonhighlight;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 10px
+}
+li {
+    color: darkgreen;
+    margin-bottom: 10px;
+    size:1.6em;
+}
+ul{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.contenedorJugar{
+    display:flex;
+    flex-direction:row;
+    height: 95vh;
+    margin:5px;
+
+}
+.error{
+    color:crimson;
+    font-style: oblique;
+    font-size:1.5em;
+    font-family: "DejaVu Sans";
+    align-items: end;
+}
+.opciones{
+    display:flex;
+    flex-direction: column;
+    background: floralwhite;
+    border: darkblue 1px solid;
+    flex:1 1 50%;
+    margin: 2px;
+
+}
+.informacion{
+    display:flex;
+    flex-direction: column;
+    background: floralwhite;
+    border: darkblue 1px solid;
+    flex:1 1 50%;
+    margin:2px;
+}
+h1{
+    color:darkcyan;
+    font-width: bold;
+    font-size:3rem;
+}
+h2{
+    color:darkmagenta;
+    font-size: 2.1rem;
+    font-weight: bold;
+    align-self: center;
+}
+h3 {
+    color: blueviolet;
+}
+legend{
+    padding:5px ;
+    padding-left:10px ;
+    padding-right:10px ;
+    margin-lef:10px;
+    margin-right:10px;
+    position: relative;
+    background:#E5E4E2;
+    color: darkblue;
+    font-size: 1.4rem;
+    font-style: oblique;
+    border-top: var(--color-border-legend);
+    border-bottom: 4px solid darkblue;
+
+}
+legend:before {
+    position: absolute;
+    content: '';
+    border-left:  var(--color-border-legend);
+    height: 50%;
+    left: 0px;
+    top: 0px;
+}
+legend:after {
+    position: absolute;
+    content: '';
+    height: 50%;
+    border-right:  var(--color-border-legend);
+    right: 0px;
+    top: 0px;
+}
+fieldset{
+    margin:10%;
+    margin-top:2%;
+    border:  var(--color-border-legend);
+    border-radius: 3px;
+    background:#E5E4E2;
+    overflow: auto;
+
+}
+
+fieldset.jugada{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+}
+input[type=submit]{
+    color:darkblue;
+    font-size: 1.6em;
+    font-style: oblique;
+    margin-top:5%;
+    margin-bottom:5%;
+    border-radius: 5px;
+}
+select{
+    color:darkviolet;
+    font-width: bold;
+    font-style: oblique;
+    font-size: 1.4rem;
+    margin-top:5%;
+    margin-bottom:5%;
+    border-radius: 5px;
+}
+option{
+    color:darkblue;
+    font-size:1.1rem;
+}
+
+
+.Color {
+    float: left;
+    display: inline;
+    width: 23%;
+    height: 40px;
+    margin: 5px;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.3em
+}
+.Color_small {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 1.3em;
+    text-align: center;
+    color: black
+}
+
+
+
+.Azul {
+    background-color: blue;
+    color: white;
+}
+
+.Rojo {
+    background-color: red;
+    color: white;
+}
+
+.Naranja {
+    background-color: orange;
+}
+
+.Verde {
+    background-color: green;
+    color: white;
+}
+
+.Violeta {
+    background-color: violet;
+}
+
+.Amarillo {
+    background-color: yellow;
+}
+
+.Marron {
+    background-color: brown;
+    color: white;
+}
+
+.Rosa {
+    background-color: pink;
+}
+
+span.negro {
+    background: black;
+    border-radius: 2.5em;
+    -moz-border-radius: 2.5em;
+    -webkit-border-radius: 2.5em;
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 15px;
+    text-align: center;
+    width:  10px;
+    height:  10px;
+    font-size: 1.5em;
+}
+
+span.blanco {
+    background: white;
+    border-radius: 2.5em;
+    -moz-border-radius: 2.5em;
+    -webkit-border-radius: 2.5em;
+    color: #000000;
+    font-weight: bold;
+    margin-right: 15px;
+    /*margin-right: 15px;*/
+    text-align: center;
+    width: 10px;
+    height:  10px;
+    font-size: 1.5em;
+}
+.final {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border: 0.25em solid darkblue;
+    overflow: auto;
+
+    /*left: 20%;*/
+    /*top: 20%;*/
+    /*margin-left: -115px;*/
+    /*margin-top: -80px;*/
+    padding: 10px;
+    background-color: #ccc;
+}

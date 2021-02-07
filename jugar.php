@@ -113,7 +113,7 @@ switch ($opcion) {
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="http://localhost/marterMind/css/estilo.css" type="text/css">
+    <link rel="stylesheet" href="./css/estilo.css" type="text/css">
     <script>
         function cambia_color(numero) {
             color = document.getElementById("combinacion" + numero).value;

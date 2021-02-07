@@ -12,7 +12,7 @@ session_destroy();
 <head>
     <meta charset="UTF-8">
     <title>Juego Master Bind</title>
-    <link rel="stylesheet" href="http://localhost/marterMind/css/estilo.css" type="text/css">
+    <link rel="stylesheet" href="./css/estilo.css" type="text/css">
 </head>
 <body>
 <div class="containerIndex">
